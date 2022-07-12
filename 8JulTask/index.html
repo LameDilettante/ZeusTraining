@@ -10,6 +10,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="myscripts.js"></script>
   </head>
   <body>
     <h1>My first web page</h1>
@@ -68,27 +69,27 @@
     </table>
     <h3>Some random form</h3>
     <p class="note-head">Note:</p>
-    <form>
+    <form id="form" onsubmit="return myFunction()">
       <label class="name">
         Name: <br />
-        <input class="name_1" type="text" placeholder="Your name" />
+        <input id="name_1" type="text" placeholder="Your name" />
       </label>
       <br />
-      <label class="comment">
+      <label id="comment">
         Comments: <br />
         <textarea
-          class="comment_1"
+          id="comment_1"
           cols="30"
           rows="10"
           placeholder="Your comments"
         ></textarea>
       </label>
       <p>Are you:</p>
-      <input id="GenderM" type="radio" name="gender" value="Male" />
+      <input id="GenderM" type="radio" class="gender" value="Male" />
       <label for="GenderM">Male</label> <br />
-      <input id="GenderF" type="radio" name="gender" value="Female" />
+      <input id="GenderF" type="radio" class="gender" value="Female" />
       <label for="GenderF">Female</label> <br />
-      <label class="submit"><input type="submit" value="Submit query" /></label>
+      <input type="submit" value="Submit" />
     </form>
   </body>
 </html>

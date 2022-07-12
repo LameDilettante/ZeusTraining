@@ -1,22 +1,20 @@
 function myFunction() {
-  var name = document.getElementById("name");
-  if (!name.value) {
+  var name = document.forms["form"]["name_1"].value;
+  if (name == "") {
     alert("All fields are compulsory");
-    name.focus();
     return false;
   }
-  var comment = document.getElementById("comment");
-  if (!comment.value) {
+  var comment = document.getElementById("comment_1").value;
+  if (comment == "") {
     alert("All fields  are compulsory");
-    comment.focus();
     return false;
   }
   if (
-    document.getElementById("male").checked == false &&
-    document.getElementById("female").checked == false
+    document.getElementById("GenderM").checked == true ||
+    document.getElementById("GenderF").checked == true
   ) {
+  } else {
     alert("All fields  are compulsory");
-    document.forms["myform"].elements["gender"][0].focus();
     return false;
   }
 }
