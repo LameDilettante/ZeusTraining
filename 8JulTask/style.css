@@ -1,0 +1,68 @@
+body {
+  background-color: beige;
+  font-family: "Roboto";
+}
+h1 {
+  color: beige;
+  background-color: #9e260d;
+  height: 45px;
+  font-style: italic;
+  letter-spacing: 20px;
+  text-align: center;
+}
+.blank {
+  color: red;
+  background-color: red;
+  margin-top: -25px;
+  margin-bottom: 35px;
+}
+.out-content {
+  display: inline-block;
+}
+.in-content {
+  text-transform: uppercase;
+  font-style: italic;
+}
+h2 {
+  color: white;
+  background-color: green;
+  padding-left: 10px;
+}
+h3 {
+  color: gray;
+}
+.list {
+  color: #9e260d;
+  font-style: italic;
+}
+.link {
+  text-decoration: none;
+}
+.logo img {
+  border-style: dashed;
+}
+.table_1 {
+  background-color: rgb(220, 218, 218);
+}
+.note-head {
+  font-weight: bold;
+  font-style: italic;
+  text-transform: uppercase;
+}
+.name_1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.comment_1 {
+  margin-top: 20px;
+  overflow-y: scroll;
+}
+#GenderM {
+  margin-bottom: 15px;
+}
+#GenderF {
+  margin-bottom: 15px;
+}
+.submit {
+  color: gray;
+}

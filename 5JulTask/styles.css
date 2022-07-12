@@ -1,0 +1,42 @@
+body {
+  font-family: "Roboto";
+  width: 457px;
+  height: 138px;
+  margin: 170px auto;
+}
+.tweet {
+  padding: 4px;
+}
+.pic {
+  width: 130px;
+  float: left;
+  margin-right: 14px;
+}
+.mosh {
+  padding-top: 14px;
+  font-weight: 900;
+  margin-bottom: 14px;
+
+  line-height: 14px;
+  font-size: 20px;
+}
+.para {
+  margin-top: 14px;
+  font-weight: 500;
+  margin-bottom: 24px;
+  font-size: 20px;
+}
+.icon {
+  width: 20px;
+  margin-right: 14px;
+  float: left;
+  color: #727a89;
+}
+.icon-num {
+  margin-right: 24px;
+  margin-top: 0px;
+  float: left;
+  font-weight: medium;
+  color: #858991;
+  font-size: 15px;
+}
