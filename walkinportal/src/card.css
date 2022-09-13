@@ -1,0 +1,113 @@
+.card{       
+    background-color: white;
+    border-radius: 2px;
+    border-style: hidden ;
+    margin:20px;
+    padding:0px 20px 20px 20px;  
+}
+.card-datetime-and-location{
+    display:flex;
+    padding-bottom: 9px;
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 20px;
+}
+
+.job-roles{
+    display:flex;
+}
+.job-icon-and-role{
+    display:flex;
+    margin-bottom: 20px;
+
+}
+.card-heading{
+    padding-top: 20px;
+    color:#17B169;
+    padding-bottom: 15px;
+    
+}
+.location-name{
+    color:#989898;
+    
+}
+.location-logo{
+    color:#989898;
+    padding-right:10px;
+}
+.grey{
+    color:#989898;
+    padding-bottom: 5px;
+    
+    
+}
+.card-date-time{
+    color:#989898;
+    padding-bottom: 5px;
+    
+    
+}
+.line{
+    padding-right:10px;
+    color:#d6d0d0;
+}
+.dates{
+    padding-right:10px;
+}
+
+.job-icon-img {
+    margin-right: 15px;
+    border:2px solid gray;
+    border-radius:100px;
+    width:20px;
+
+}
+.role{
+    padding-right:10px;
+
+}
+.view-more-details-button{
+    border-style: hidden;
+    background-color: #17B169;
+    border-radius: 3%;
+    color:rgba(0, 0, 0, 0.484);
+    align-items: center;
+    padding:10px 20px;
+    width:180px;
+    margin-left: 40%;
+    margin-right:50%;
+    margin-bottom:10px;
+    font-weight: 700;
+}
+.card--badge{
+    position:absolute;
+    font-size: 10px;
+    
+    margin-left: 1070px;
+    background-color: #FFE4E6;
+    color: #D80000;
+    width: 92px;
+    height: 25;
+    text-align: center;
+    font-weight: bold;
+}
+.internship{
+    position:absolute;
+    font-size: 10px;
+    text-align: center;
+    font-weight: bold;
+    width:250px;
+    background: rgb(239, 239, 7);
+    border-radius: 40px;
+    padding: 5px;
+    margin-bottom: 50px;
+
+
+}
+body{
+    background-color: rgb(220,224,224);
+}
+*{
+    margin:0;
+    padding:0;
+    font-family:'Quicksand',sans-serif;
+}
