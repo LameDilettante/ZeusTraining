@@ -1,8 +1,9 @@
 import React from "react";
-import location from "./location_on_black_24dp.svg";
-import instructionaldesigner from "./Instructional Designer.svg";
-import softwareengineer from "./Instructional Designer.svg";
-import softwareQualityEngineer from "./Software Quality Engineer.svg";
+import location from "../Assets/location_on_black_24dp.svg";
+import instructionaldesigner from "../Assets/Instructional Designer.svg";
+import softwareengineer from "../Assets/Instructional Designer.svg";
+import softwareQualityEngineer from "../Assets/Software Quality Engineer.svg";
+
 export default function Card(props) {
   let badgeText;
   if (props.daysleft === 5) {

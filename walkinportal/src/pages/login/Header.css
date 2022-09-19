@@ -1,0 +1,17 @@
+#header-pattern {
+  top: 0px;
+  left: 0px;
+  width: 1024px;
+  height: 56px;
+  border-bottom: 2px solid #31b9e4;
+  background: transparent url("../../Assets/header pattern image.png") 0% 0%
+    no-repeat padding-box;
+  mix-blend-mode: overlay;
+  opacity: 0.8;
+}
+
+#logo-in-header {
+  margin-top: 5px;
+  margin-left: 20px;
+  color: white;
+}

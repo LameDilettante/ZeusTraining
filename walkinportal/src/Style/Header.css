@@ -1,0 +1,23 @@
+.icon {
+  border-radius: 50%;
+  text-align: center;
+  width: 30px;
+  height: 25px;
+  margin-top: 10px;
+  border: 2px solid #17b169;
+  background-color: dimgrey;
+  color: white;
+  padding-top: 5px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(1, 1, 41);
+  padding: 0px 9px;
+  border-bottom: 3px solid #6cb4ee;
+  margin-bottom: 40px;
+}
+.nav-logo {
+  width: 100px;
+  height: 60px;
+}

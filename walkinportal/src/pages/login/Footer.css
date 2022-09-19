@@ -1,0 +1,17 @@
+.about {
+  display: flex;
+  margin-top: 32px;
+  justify-content: center;
+}
+
+.about > a,
+p {
+  text-decoration: none;
+  font: normal normal medium 14px/18px Quicksand;
+  letter-spacing: 0px;
+  color: #1f7a54;
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  opacity: 1;
+}
