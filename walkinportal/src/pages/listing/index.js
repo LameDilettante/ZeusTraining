@@ -1,10 +1,10 @@
 import React from "react";
-import Card from "../../Components/card";
-import Carddata from "../../Components/carddata";
+import Card from "./card";
+import Carddata from "./carddata";
 import Header from "../../Components/Header";
 import "../../Style/card.css";
 import "../../Style/index.css";
-import "../../Style/Header.css"
+import "../../Style/Header.css";
 
 export default function Listing() {
   const cardelements = Carddata.map((item) => {

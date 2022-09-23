@@ -1,6 +1,6 @@
 import React from "react";
-import Card from "../../Components/card";
-import Carddata from "../../Components/carddata";
+import Card from "../listing/card";
+import Carddata from "../listing/carddata";
 import Header from "../../Components/Header";
 
 export default function ApplicationSuccess() {

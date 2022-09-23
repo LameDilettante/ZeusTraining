@@ -1,12 +1,12 @@
 import React from "react";
-import Card from "../../Components/card";
-import Carddata from "../../Components/carddata";
-import Header from "../../Components/Header";
+import Header from "../../Components/Header.js";
+import Main from "./noncomposed.js"
 
 export default function WalkInDetails() {
   return (
     <div className="walk-in-details">
       <Header />
+      <Main />
     </div>
   );
 }
