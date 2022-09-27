@@ -1,8 +1,9 @@
 import React from "react";
-import location from "../Assets/location_on_black_24dp.svg";
-import instructionaldesigner from "../Assets/Instructional Designer.svg";
-import softwareengineer from "../Assets/Instructional Designer.svg";
-import softwareQualityEngineer from "../Assets/Software Quality Engineer.svg";
+import location from "../../Assets/location_on_black_24dp.svg";
+import instructionaldesigner from "../../Assets/Instructional Designer.svg";
+import softwareengineer from "../../Assets/Instructional Designer.svg";
+import softwareQualityEngineer from "../../Assets/Software Quality Engineer.svg";
+import { Link } from "react-router-dom";
 
 export default function Card(props) {
   let badgeText;
@@ -21,11 +22,7 @@ export default function Card(props) {
       <div className="card-datetime-and-location">
         <p className="dates">{props.dates}</p>
         <p className="line">|</p>
-        <img
-          className="location-logo"
-          src={location}
-          alt="location-image"
-        ></img>
+        <img className="location-logo" src={location} alt="location"></img>
         <p className="location-name">{props.location}</p>
       </div>
 
@@ -64,7 +61,9 @@ export default function Card(props) {
       </div>
       {internshipTag && <p className="internship">{internshipTag}</p>}
       <div>
-        <button className="view-more-details-button">VIEW MORE DETAILS</button>
+        <Link to="/walk-in-details" className="view-more-details-button">
+          VIEW MORE DETAILS
+        </Link>
       </div>
     </div>
   );

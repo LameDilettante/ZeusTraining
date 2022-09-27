@@ -1,4 +1,5 @@
 import React from "react";
+import "./noncomposed.css";
 import map from "../../Assets/location_on_black_24dp.svg";
 import instruction from "../../Assets/Instructional Designer.svg";
 import expand from "../../Assets/expand_less_black_24dp.svg";
@@ -6,7 +7,7 @@ import radiocheck from "../../Assets/radio_button_checked_black_24dp.svg";
 import radiouncheck from "../../Assets/radio_button_unchecked_black_24dp.svg";
 import check from "../../Assets/check_box_outline_blank_black_24dp.svg";
 import uncheck from "../../Assets/check_box_black_24dp.svg";
-import upload from "../../Assets/upload_black_24dp.svg";
+import upload from "../../Assets/Upload_black_24dp.svg";
 
 export default function Main() {
   const [isShown, setIsShown] = React.useState(false);
