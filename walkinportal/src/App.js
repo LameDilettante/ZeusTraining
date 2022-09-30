@@ -8,12 +8,10 @@ import { Routes, Route } from "react-router-dom";
 export default function App() {
   return (
     <Routes className="App">
-      <Route path="/login" element={<Login />} />
+      <Route path="/" element={<Login />} />
       <Route path="/job-listing" element={<Listing />} />
       <Route path="/walk-in-details" element={<WalkInDetails />} />
       <Route path="/application-success" element={<AppSucc />} />
     </Routes>
   );
 }
-
-

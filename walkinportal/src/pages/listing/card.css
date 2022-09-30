@@ -71,9 +71,9 @@
   font-weight: 700;
 }
 .card--badge {
-  position: sticky;
+  position: absolute;
   font-size: 10px;
-  margin-left: 1070px;
+  right: 50px;
   background-color: #ffe4e6;
   color: #d80000;
   width: 92px;
