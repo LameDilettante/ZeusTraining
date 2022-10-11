@@ -5,11 +5,11 @@ const pool = new Pool({
   database: "walk_in_portal",
   password: "root",
   port: 1124,
-});
+}); 
 const getCardData = () => {
   return new Promise(function (resolve, reject) {
     pool.query(
-      "SELECT * FROM walk_in_details ORDER BY id ASC",
+      "SELECT * FROM walk_in_details",
       (error, results) => {
         if (error) {
           reject(error);
