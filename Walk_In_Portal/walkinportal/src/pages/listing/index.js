@@ -1,27 +1,21 @@
 import React from "react";
 import Card from "./card";
-import Carddata from "./carddata";
+//import Carddata from "./carddata";
 import Header from "../../Components/Header";
 import "./card.css";
 import "./index.css";
 import "../../Components/Header.css";
 
-fetch("http://localhost:5000/carddata")
-  .then((response) => {
-    return response.json();
-  })
-  .then((json) => {
-    const fs = require("fs");
-    fs.writeFile("./carddata.js", JSON.stringify(json), (err) => {
-      if (err) {
-        throw new Error("Something went wrong.");
-      }
-      console.log("JSON written to file. Contents:");
-    });
-  });
+
 
 export default function Listing() {
-  const cardelements = Carddata.map((item) => {
+  const cardData = fetch('localhost:5000/carddata',{
+            method:"get",
+            headers:{
+                "Content-Type":"application/json"
+            }
+        })  
+  const cardelements = cardData.map((item) => {
     return (
       <Card
         key={item.id}
