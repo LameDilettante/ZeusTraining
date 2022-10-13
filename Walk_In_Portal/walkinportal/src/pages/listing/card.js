@@ -4,6 +4,8 @@ import instructionaldesigner from "../../Assets/Instructional Designer.svg";
 import softwareengineer from "../../Assets/Instructional Designer.svg";
 import softwareQualityEngineer from "../../Assets/Software Quality Engineer.svg";
 import { Link } from "react-router-dom";
+
+
 export default function Card(props) {
   let badgeText;
   if (props.daysleft === 5) {
