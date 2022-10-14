@@ -1,10 +1,12 @@
 const express = require("express");
+const cors = require("cors");
 const path = require("path");
 const app = express(); // create express app
 const db = require("./querymodel");
 const port = 5000;
 
 //adding middlewares
+app.use(cors());
 app.use(express.static(path.join(__dirname, "..", "build")));
 app.use(express.static("public"));
 
